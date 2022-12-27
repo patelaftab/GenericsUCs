@@ -6,12 +6,12 @@ namespace GeneicUCs
     {
         public static void Main(string[] args)
         {
-            int firstvalue = 40;
-            int secondvalue =20;
-            int thirdvalue = 30;
+            double firstvalue = 40.3;
+            double secondvalue =20.10;
+            double thirdvalue = 30.20;
 
             MaximumNumber maximumNumber = new MaximumNumber();
-            int result = maximumNumber.MaximumIntergerNumber(firstvalue,secondvalue,thirdvalue);
+            double result = maximumNumber.MaximumIntergerNumber(firstvalue,secondvalue,thirdvalue);
             Console.WriteLine(result);
         }
     }

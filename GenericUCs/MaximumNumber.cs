@@ -8,7 +8,7 @@ namespace GenericUCs
 {
     public class MaximumNumber 
     {
-        public  int MaximumIntergerNumber(int firstvalue,int secondvalue, int thirdvalue) 
+        public  double MaximumIntergerNumber(double firstvalue,double secondvalue,double thirdvalue) 
         {
             if(firstvalue.CompareTo(secondvalue)>0 && firstvalue.CompareTo(thirdvalue)>0 ||
                 firstvalue.CompareTo(secondvalue)>= 0 && firstvalue.CompareTo(thirdvalue)>0 ||
